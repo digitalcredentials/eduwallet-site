@@ -1272,7 +1272,7 @@ a:hover.back-to-top {
 }
 
 .eduwallet-icon {
-	width: 20rem;
+	width: 15rem;
 }	
 
 .ios-icon {
@@ -1359,21 +1359,26 @@ a:hover.back-to-top {
 /*************************/
 /*     Media Queries     */
 /*************************/	
-/* Min-width 768px */
+/* Min-width 500px */
 @media (min-width: 500px) {
 
 	.eduwallet .h1-large {
 		font-size: 6rem;
 	}
-.eduwallet .h2-heading {
 
-	font-size: 2rem;
-}
+	.eduwallet .h2-heading {
+
+		font-size: 2rem;
+	}
+
+	.eduwallet-icon {
+		width: 20rem;
+	}
 
 	/* end of extra pages */
 
 }
-/* end of min-width 768px */
+/* end of min-width 500px */
 
 
 /*************************/
