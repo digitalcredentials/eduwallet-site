@@ -43,6 +43,7 @@ html {
 
 body, p {
 	color: #000000; 
+	background-color: #1f2936;
 	font: 400 1rem/1.625rem "Open Sans", sans-serif;
 	font-size: 1.3rem;
 	line-height: 2rem;
