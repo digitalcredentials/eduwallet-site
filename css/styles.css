@@ -625,34 +625,35 @@ input[type='checkbox'] {
 }
 
 .eduwallet .h1-large {
-	font-size: 4rem;
+	font-size: 3rem;
 }
 
 .eduwallet .h2-heading {
 	color: white;
 	font-size: 28px;
-	padding-top: 2.5rem;
+	padding-top: 1.25rem;
 }
 
 .eduwallet-icon {
-	width: 15rem;
+	width: 12rem;
 }	
 
 .ios-icon {
-	padding-top:1.5rem;
-	width: 13rem;
+	padding-top:1rem;
+	width: 10rem;
 }
 
 .android-icon {
-	padding-top:1.5rem;
-	width: 16.8rem;
+	padding-top:1rem;
+	width: 13.2rem;
 }
 
 .eduwallet-description {
 	color: white;
-	padding-top: 2rem;
-	font-size: 1.5rem;
+	padding-top: 1.5rem;
+	font-size: 1.25rem;
 	line-height: 2.2rem;
+	padding-bottom: 2rem;
 }
 
 .eduwallet .p-small {
@@ -668,16 +669,16 @@ input[type='checkbox'] {
 @media (min-width: 500px) {
 
 	.eduwallet .h1-large {
-		font-size: 6rem;
+		font-size: 4rem;
 	}
 
 	.eduwallet .h2-heading {
 
-		font-size: 2rem;
+		font-size: 1.75rem;
 	}
 
 	.eduwallet-icon {
-		width: 20rem;
+		width: 15rem;
 	}
 
 	/* end of extra pages */
