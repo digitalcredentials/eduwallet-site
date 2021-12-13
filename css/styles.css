@@ -4,6 +4,7 @@
 Colors:
 - Background - dark blue #1f2936
 - Text - white #ffffff
+- Secondary Text - off-white (199, 199, 199)
 - Links - light blue #55DDFF
 - Link hover - darker light blue #40B4D0
 ******************************************/
@@ -47,11 +48,12 @@ h2 {
 }
 
 h3 {
-	color: #000000;
+	color: white;
 	font-weight: 700;
 	font-size: 1.5rem;
 	line-height: 2.375rem;
 	letter-spacing: -0.4px;
+	margin-bottom: 0rem;
 }
 
 h4 {
@@ -138,13 +140,17 @@ a:hover {
 	vertical-align: -8%;
 }
 
+.btn {
+	margin-top: 1rem;
+	color: white;
+}
+
 
 /*****************/
 /*    EduWallet Page    */
 /*****************/
 .eduwallet {
 	padding-bottom: 1.5rem;
-	color:rgb(199, 199, 199);
 }
 
 .eduwallet-icon {
