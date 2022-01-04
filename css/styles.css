@@ -23,13 +23,12 @@ body, p {
 	color: #ffffff; 
 	background-color: #1f2936;
 	font: 400 1rem/1.625rem "Roboto", sans-serif;
-	padding-top: 1.5rem;
 	font-size: 1.25rem;
 	line-height: 2.2rem;
-	padding-bottom: 2rem;
+	text-align: left;
 }
 
-h1 {
+.title {
 	font-weight: bold;
 	font-family: 'Rubik', sans-serif;
 	font-size: 2.9rem;
@@ -38,13 +37,20 @@ h1 {
 	color: #ffffff;
 }
 
+h1 {
+	font-weight: 700;
+	line-height: 2.625rem;
+	letter-spacing: -0.4px;
+	color: #ffffff;
+	font-size: 40px;
+}
+
 h2 {
 	font-weight: 700;
 	line-height: 2.625rem;
 	letter-spacing: -0.4px;
 	color: #ffffff;
 	font-size: 22px;
-	padding-top: 1rem;
 }
 
 h3 {
@@ -53,7 +59,6 @@ h3 {
 	font-size: 1.5rem;
 	line-height: 2.375rem;
 	letter-spacing: -0.4px;
-	margin-bottom: 0rem;
 }
 
 h4 {
@@ -75,39 +80,20 @@ h6 {
 	line-height: 1.5rem;
 }
 
-.h1-large {
-	font-family: 'Rubik', sans-serif;
-	font-size: 3rem;
-	line-height: 2.75rem;
-	letter-spacing: -0.7px;
-	font-weight:lighter;
-	color: #ffffff;
+footer {
+	margin-top: 8.5rem;
+	padding-bottom: 4rem;
 }
 
-.p-large {
-	font-size: 1.125rem;
-	line-height: 1.75rem;
+.footer-text {
+	font-size: 0.875rem;
+	line-height: 1.4rem;
+	color: white;
+	margin-bottom: 0.5rem;
 }
 
 .p-small {
-	font-size: 0.875rem;
-	line-height: 1.5rem;
-	color: white;
-	padding-top:5rem;
-}
-
-.testimonial-text {
-	font-style: italic;
-}
-
-.testimonial-author {
-	font-weight: 600;
 	font-size: 1rem;
-	line-height: 1.5rem;
-}
-
-.li-space-lg li {
-	margin-bottom: 0.5rem;
 }
 
 a {
@@ -128,20 +114,7 @@ a:hover {
 	text-decoration: none;
 }
 
-.read-more {
-	font-weight: 600;
-	font-size: 0.875rem;
-	line-height: 1.5rem;
-}
-
-.read-more .fas {
-	margin-left: 0.625rem;
-	font-size: 1rem;
-	vertical-align: -8%;
-}
-
 .btn {
-	margin-top: 1rem;
 	color: white;
 }
 
@@ -149,21 +122,16 @@ a:hover {
 /*****************/
 /*    EduWallet Page    */
 /*****************/
-.eduwallet {
-	padding-bottom: 1.5rem;
-}
 
 .eduwallet-icon {
 	width: 12rem;
 }	
 
 .ios-icon {
-	padding-top:1rem;
 	width: 10rem;
 }
 
 .android-icon {
-	padding-top:1rem;
 	width: 13.2rem;
 }
 
@@ -174,7 +142,7 @@ a:hover {
 /* Min-width 500px */
 @media (min-width: 500px) {
 
-	h1 {
+	.title {
 		font-size: 3.25rem;
 	}
 
@@ -187,7 +155,9 @@ a:hover {
 		width: 15rem;
 	}
 
-	/* end of extra pages */
+	.p-small {
+		font-size: 1.15rem;
+	}
 
 }
 /* end of min-width 500px */
