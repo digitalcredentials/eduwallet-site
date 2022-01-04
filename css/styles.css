@@ -46,14 +46,6 @@ h1 {
 }
 
 h2 {
-	font-weight: 700;
-	line-height: 2.625rem;
-	letter-spacing: -0.4px;
-	color: #ffffff;
-	font-size: 22px;
-}
-
-h3 {
 	color: white;
 	font-weight: 700;
 	font-size: 1.5rem;
@@ -61,20 +53,20 @@ h3 {
 	letter-spacing: -0.4px;
 }
 
-h4 {
+h3 {
 	font-weight: 700;
 	font-size: 1.5rem;
 	line-height: 2.125rem;
 	letter-spacing: -0.4px;
 }
 
-h5 {
+h4 {
 	font-weight: 700;
 	font-size: 1.25rem;
 	line-height: 1.75rem;
 }
 
-h6 {
+h5 {
 	font-weight: 700;
 	font-size: 1rem;
 	line-height: 1.5rem;
@@ -146,7 +138,7 @@ a:hover {
 		font-size: 3.25rem;
 	}
 
-	h2 {
+	.subtitle {
 
 		font-size: 1.75rem;
 	}
