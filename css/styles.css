@@ -86,7 +86,6 @@ footer {
 
 .p-small {
 	font-size: 1rem;
-	font-weight: 300;
 }
 
 a {
@@ -149,7 +148,8 @@ a:hover {
 	}
 
 	.p-small {
-		font-size: 1.15rem;
+		font-size: 1rem;
+		font-weight: 300;
 	}
 
 }
